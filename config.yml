@@ -1,0 +1,18 @@
+---
+logging:
+  level: INFO
+  loggers:
+    com.javaeeeee: DEBUG
+server:
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
+
+database:
+  driverClass: com.mysql.cj.jdbc.Driver
+  user: root
+  password: 'ridhimasql'
+  url: jdbc:mysql://mysql:3306/todo #change to jdbc:mysql://localhost:3306/todo to access localdb

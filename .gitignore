@@ -1,0 +1,21 @@
+# Logs
+logs
+*.log
+
+# Environment variables
+.env
+
+# Docker files
+db_data
+*.pid
+
+# Build output
+/target
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# System files
+.DS_Store
